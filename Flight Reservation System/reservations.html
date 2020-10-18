@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="reserve.css">
+    <link rel="stylesheet" type="text/css" href="formtransition.css">
+    <title>reservations</title>
+</head>
+<body>
+    <div class="main">
+        <div class="form-box">
+            <form id="form-user" method="POST">
+                <h4>Ticket Booking Details:</h4>
+                    <div id="input">
+                        <input type="text" class="place" placeholder="From">
+                        <input type="text" class="place" placeholder="To">
+                        <br>
+                        <select id="airline" class="pref">
+                            <option value="">Prefered Airline</option>
+                            <option value="">Indigo</option>
+                            <option value="">Air Asia</option>
+                            <option value="">Air India</option>
+                            <option value="">SpiceJet</option>
+                            <option value="">Vistara</option>
+                        </select>
+                        <select id="sitting" class="pref" required>
+                            <option value="">Prefered Sitting</option>
+                            <option value="">Economy</option>
+                            <option value="">Business</option>
+                            <option value="">First Class</option>
+                        </select>
+                        <br>
+                        <input type="number" min="0" max="2" class="pep" placeholder="Adult">
+                        <input type="number" min="0" max="2" class="pep" placeholder="Children(6-11)">
+                        <input type="number" min="0" max="2" class="pep" placeholder="Infants(under 6)">
+                        <br>
+                        <label for="trip">Number of trips:</label>
+                        <input type="radio" class="tr" id="ow" name="trip">
+                        <label for="ow">One Way</label>
+                        <input type="radio" class="tr" id="ow" name="trip">
+                        <label for="ow">Round Trip</label>
+                        <br>
+                        <label for="bdate">Boarding Date:</label>
+                        <input type="date" class="date" id="bdate">
+                        <label for="rdate">Return Date:</label>
+                        <input type="date" class="date" id="rdate">
+                    </div>
+                    <h4>Personal Details:</h4>
+                    <div id="pdetails">
+                        <input type="text" class="name" id="input-first" placeholder="First Name">
+                        <span id="firstnameerror"></span>
+                        <input type="text" class="name" placeholder="Middle Name">
+                        <input type="text" class="name" placeholder="Last Name">
+                        <br>
+                        <input type="email" class="details" placeholder="Email">
+                        <input type="tel" class="details" placeholder="Phone number" >
+                    </div>
+                    <br>
+        
+                <button type="submit" id="button-send" onclick="dest()">Book</button>
+                <button id="button-cancel">Cancel</button>
+        
+        
+            </form>
+            <script src="form.js"></script>
+    
+        </div>
+    
+    </div>
+</body>
+</html>

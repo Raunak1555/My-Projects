@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url("signinbg.jpg");
+    background-size: cover;
+}
+.form-box{
+    height: 170px;
+    width: 380px;
+    background-color: rgba(0, 0, 0, 0.562);
+    padding: 20px;
+    position: relative;
+    margin: auto;
+    margin-top: 250px;
+}
+h3{
+    color: rgb(153, 151, 148);
+}
+.signin{
+    width: 300px;
+    margin: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    color:rgb(153, 151, 148);
+}
+button{
+    background-color: rgba(0, 0, 0, 0);
+	border: none;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 40px;
+	border: 3px solid rgba(255, 255, 255, 0.349);
+    width: 100px;
+    color: rgb(153, 151, 148);
+    margin-left: 130px;
+}

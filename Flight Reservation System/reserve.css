@@ -1,0 +1,103 @@
+body{
+    background-image: url("reservebg.jpg");
+    background-size: cover;
+}
+form{
+    background-color: rgba(0, 0, 0, 0.747);
+    height: 450px;
+    width: 700px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+}
+h4{
+    color: rgb(153, 151, 148);
+}
+label{
+    color:rgb(153, 151, 148);
+}
+.place{
+    width: 300px;
+    margin: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: blanchedalmond;
+}
+.pref{
+    width: 300px;
+    margin: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(153, 151, 148);
+}
+.pep{
+    width: 200px;
+    margin: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: blanchedalmond;
+}
+.tr{
+    background-color: transparent;
+}
+.date{
+    width: 200px;
+    margin: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    color:rgb(153, 151, 148);
+}
+.name{
+    width: 200px;
+    margin: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    color:rgb(153, 151, 148);
+}
+.details{
+    width: 300px;
+    margin: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    color:rgb(153, 151, 148);
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	color: orange;
+
+}
+button{
+    background-color: rgba(0, 0, 0, 0);
+	border: none;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 40px;
+	border: 3px solid white;
+    width: 100px;
+    color: rgb(153, 151, 148);
+}
+button:hover{
+    color: orange;
+}
